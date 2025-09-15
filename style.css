@@ -1,0 +1,128 @@
+.container {
+    border: 1px solid black;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 1px 1px 30px rgb(5, 255, 5);
+   border-radius: 10px;
+margin-top: 100px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.logo {
+    width: 60px;
+}
+h1 {
+    color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.mini-pic {
+    width: 20px;
+    margin-left: 30px;
+}
+.text {
+     width: 300px;
+     height: 50px;
+    border-radius: 28px;
+    background-color: black;
+    border-color: grey;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.text:hover {
+    border-color: white;
+    margin: 0 10px 10px;
+    transition: 0.7s;
+}
+.text2 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-weight: 700;
+color: white;
+}
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+.press {
+    width: 400px;
+    height: 50px;
+    padding-left: 5px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: grey;
+    border-style: solid;
+    color: white;
+    font-size: 20px;
+}
+.press:hover {
+    border-color: white;
+}
+.click {
+     width: 405px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 30px;
+    background-color: rgb(5, 255, 5);
+    font-weight: 500;
+    cursor: pointer;
+}
+.click:hover {
+    transition: 0.5s;
+    background-color: rgba(5, 255, 5, 0.651);
+}
+.sub3 {
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer {
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span:hover {
+    color: rgb(5, 255, 5)
+}
+.end {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.sign {
+    padding:10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sign:hover {
+color: rgb(5, 255, 5);
+}
